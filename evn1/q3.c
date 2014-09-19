@@ -66,7 +66,7 @@ int main()
   int numElements = 0;
   scanf("%d", &numElements);
   if (numElements == 0) return 0;
-  if (numElements > 1000) return 0;
+  if (numElements > 1000) return 1;
   int *inputArray = malloc(sizeof(int) * numElements);
   if (!inputArray) return 1;
   int i=0;
